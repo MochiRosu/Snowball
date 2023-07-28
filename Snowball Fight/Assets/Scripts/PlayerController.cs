@@ -20,9 +20,13 @@ public class PlayerController : MonoBehaviour
 
     public bool isGrounded;
 
+    private Animator anim;
+
     void Start()
     {
         theRB = GetComponent<Rigidbody2D>();
+
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
@@ -45,5 +49,16 @@ public class PlayerController : MonoBehaviour
         {
             theRB.velocity = new Vector2(theRB.velocity.x, jumpForce);
         }
+        if(theRB.velocity.x < 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+        else if(theRB.velocity.x > 0)
+        {
+            transform.localScale = new Vector3(+1, 1, 1);
+        }
+
+        anim.SetFloat("Speed", Mathf.Abs(theRB.velocity.x));
+        anim.SetBool("Grounded", isGrounded);
     }
 }

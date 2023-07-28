@@ -2239,10 +2239,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1205972795}
   - component: {fileID: 1205972794}
-  - component: {fileID: 1205972793}
   - component: {fileID: 1205972792}
   - component: {fileID: 1205972791}
   - component: {fileID: 1205972796}
+  - component: {fileID: 1205972797}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -2284,7 +2284,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.024754524, y: -0.028562665}
+  m_Offset: {x: 0.03275609, y: -0.031230092}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2295,29 +2295,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.57726955, y: 0.9352572}
+  m_Size: {x: 0.44391012, y: 0.812567}
   m_EdgeRadius: 0
---- !u!95 &1205972793
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1205972790}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 82d8a635a2a451c42946e867ceb48ac8, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1205972794
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2378,7 +2357,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205972790}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.5829163, y: -3.9856179, z: 0}
+  m_LocalPosition: {x: -6.5829163, y: -4.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2398,8 +2377,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80b83fb8c3077e547ae06c99e916dbfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
-  jumpForce: 20
+  moveSpeed: 8
+  jumpForce: 17
   left: 97
   right: 100
   jump: 32
@@ -2410,6 +2389,27 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   isGrounded: 0
+--- !u!95 &1205972797
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205972790}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6c4d945129029a7418e76fddb818e25c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1252870990
 GameObject:
   m_ObjectHideFlags: 0
