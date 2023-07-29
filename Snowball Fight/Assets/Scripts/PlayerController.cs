@@ -22,6 +22,9 @@ public class PlayerController : MonoBehaviour
 
     private Animator anim;
 
+    public GameObject snowBall;
+    public Transform throwPoint;
+
     void Start()
     {
         theRB = GetComponent<Rigidbody2D>();
@@ -49,6 +52,14 @@ public class PlayerController : MonoBehaviour
         {
             theRB.velocity = new Vector2(theRB.velocity.x, jumpForce);
         }
+
+        if (Input.GetKeyDown(throwBall))
+        {
+            GameObject ballClone = (GameObject) Instantiate(snowBall, throwPoint.position, throwPoint.rotation);
+            ballClone.transform.localScale = transform.localScale;
+            anim.SetTrigger("Throw");
+        }
+
         if(theRB.velocity.x < 0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
