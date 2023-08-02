@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
     public GameObject snowBall;
     public Transform throwPoint;
 
+    public AudioSource throwSound;
+
     void Start()
     {
         theRB = GetComponent<Rigidbody2D>();
@@ -58,6 +60,8 @@ public class PlayerController : MonoBehaviour
             GameObject ballClone = (GameObject) Instantiate(snowBall, throwPoint.position, throwPoint.rotation);
             ballClone.transform.localScale = transform.localScale;
             anim.SetTrigger("Throw");
+
+            throwSound.Play();
         }
 
         if(theRB.velocity.x < 0)
