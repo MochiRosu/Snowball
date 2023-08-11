@@ -76,4 +76,22 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("Speed", Mathf.Abs(theRB.velocity.x));
         anim.SetBool("Grounded", isGrounded);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "JumpPowerUp")
+        {
+            Destroy(collision.gameObject);
+            jumpForce = 25f;
+            GetComponent<SpriteRenderer>().color = Color.yellow;
+            StartCoroutine(ResetPower());
+        }
+    }
+
+    private IEnumerator ResetPower()
+    {
+        yield return new WaitForSeconds(5);
+        jumpForce = 15;
+        GetComponent<SpriteRenderer>().color = Color.white;
+    }
 }
