@@ -57,18 +57,18 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(throwBall))
         {
-            GameObject ballClone = (GameObject) Instantiate(snowBall, throwPoint.position, throwPoint.rotation);
+            GameObject ballClone = (GameObject)Instantiate(snowBall, throwPoint.position, throwPoint.rotation);
             ballClone.transform.localScale = transform.localScale;
             anim.SetTrigger("Throw");
 
             throwSound.Play();
         }
 
-        if(theRB.velocity.x < 0)
+        if (theRB.velocity.x < 0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
         }
-        else if(theRB.velocity.x > 0)
+        else if (theRB.velocity.x > 0)
         {
             transform.localScale = new Vector3(+1, 1, 1);
         }
