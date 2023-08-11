@@ -234,9 +234,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 8
   jumpForce: 17
-  left: 260
-  right: 262
-  jump: 264
+  left: 276
+  right: 275
+  jump: 273
   throwBall: 256
   groundCheckPoint: {fileID: 3370562888554861289}
   groundCheckRadius: 0.2
