@@ -451,9 +451,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 896
-        y: 896
+        y: 800
         width: 128
-        height: 128
+        height: 224
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,13 +615,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowtree_ground
+      name: Tree
       rect:
         serializedVersion: 2
         x: 896
-        y: 768
+        y: 772
         width: 128
-        height: 128
+        height: 235
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1035,7 +1035,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snowball_big
+      name: Big Snowball
       rect:
         serializedVersion: 2
         x: 640
@@ -1044,7 +1044,7 @@ TextureImporter:
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 12, y: 13, z: 13, w: 12}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1499,7 +1499,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b55256f9696838248851870774ba9868
     internalID: 0
     vertices: []
     indices: 
@@ -1507,6 +1507,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Big Snowball: 21300070
       Ice_Bot_26_big_L: 21300002
       Ice_Bot_26_big_R: 21300010
       Ice_Bot_L: 21300020
@@ -1557,13 +1558,12 @@ TextureImporter:
       Snow_decoration_1: 21300018
       Snow_decoration_2: 21300026
       Snow_platform: 21300046
-      Snowball_big: 21300070
       Snowball_small: 21300064
       Snowhill_1: 21300016
       Snowhill_2: 21300038
       Snowhill_3: 21300028
       Snowtree_Top: 21300014
-      Snowtree_ground: 21300030
+      Tree: 21300030
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
