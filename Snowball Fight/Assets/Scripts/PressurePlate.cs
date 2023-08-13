@@ -6,16 +6,25 @@ public class PressurePlate : MonoBehaviour
 {
     public GameObject doorToDeactivate;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Player1"))
+        if (collision.CompareTag("Player1"))
         {
 
-            Debug.Log("stood on pressure plate");
-            //if (doorToDeactivate != null)
-            //{
+            Debug.Log("player1 stood on pressure plate");
+            if (doorToDeactivate != null)
+            {
                 Destroy(doorToDeactivate);
-            //}
+            }
+        }
+
+        if (collision.CompareTag("Player2"))
+        {
+            Debug.Log("player2 stood on pressure plate");
+            if (doorToDeactivate != null)
+            {
+                Destroy(doorToDeactivate);
+            }
         }
     }
 }
