@@ -601,8 +601,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4cc5a6fe6a41e94d87f3d591acb37e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level1: SnowballFight
-  level2: SnowballFight2
+  level1: Puzzle1
+  level2: Puzzle2
 --- !u!114 &856421901
 MonoBehaviour:
   m_ObjectHideFlags: 0
