@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class LevelDoor : MonoBehaviour
 {
     public string nextLevelName;
+    public float delayBeforeLoad = 2.0f;
 
     private bool player1Inside;
     private bool player2Inside;
@@ -40,7 +41,14 @@ public class LevelDoor : MonoBehaviour
     {
         if (player1Inside && player2Inside)
         {
-            SceneManager.LoadScene(nextLevelName);
+            StartCoroutine(LoadNextLevelWithDelay());
         }
+    }
+
+    private IEnumerator LoadNextLevelWithDelay()
+    {
+        yield return new WaitForSeconds(delayBeforeLoad);
+
+        SceneManager.LoadScene(nextLevelName);
     }
 }
