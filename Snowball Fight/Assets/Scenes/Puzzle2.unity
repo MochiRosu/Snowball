@@ -6427,8 +6427,8 @@ Tilemap:
   - first: {x: 17, y: -5, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 9
-      m_TileSpriteIndex: 1
+      m_TileIndex: 11
+      m_TileSpriteIndex: 11
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -7407,8 +7407,8 @@ Tilemap:
   - first: {x: -24, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 9
-      m_TileSpriteIndex: 1
+      m_TileIndex: 10
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -12004,16 +12004,16 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 819b04681a392fb48bb750e971529539, type: 2}
   - m_RefCount: 11
     m_Data: {fileID: 11400000, guid: 859e3db61193f3743a349ba2fcd44f27, type: 2}
-  - m_RefCount: 81
+  - m_RefCount: 79
     m_Data: {fileID: 11400000, guid: 8ac085750a1b03c47bb2cb20e7c0b0ca, type: 2}
-  - m_RefCount: 10
+  - m_RefCount: 11
     m_Data: {fileID: 11400000, guid: 589ff1277eae8c542a566e50238657cd, type: 2}
-  - m_RefCount: 10
+  - m_RefCount: 11
     m_Data: {fileID: 11400000, guid: ede3b616fa4247c4291eb76f158f0547, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 71
     m_Data: {fileID: 1731068725, guid: aaedb83aa90c2c84da7278ad051ad398, type: 3}
-  - m_RefCount: 81
+  - m_RefCount: 79
     m_Data: {fileID: -154113738, guid: aaedb83aa90c2c84da7278ad051ad398, type: 3}
   - m_RefCount: 726
     m_Data: {fileID: 682870970, guid: aaedb83aa90c2c84da7278ad051ad398, type: 3}
@@ -12031,9 +12031,9 @@ Tilemap:
     m_Data: {fileID: 790888011, guid: aaedb83aa90c2c84da7278ad051ad398, type: 3}
   - m_RefCount: 11
     m_Data: {fileID: 1334069484, guid: aaedb83aa90c2c84da7278ad051ad398, type: 3}
-  - m_RefCount: 10
+  - m_RefCount: 11
     m_Data: {fileID: 548779400, guid: aaedb83aa90c2c84da7278ad051ad398, type: 3}
-  - m_RefCount: 10
+  - m_RefCount: 11
     m_Data: {fileID: 1857909312, guid: aaedb83aa90c2c84da7278ad051ad398, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1065
@@ -13341,6 +13341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevelName: SnowballFight2
+  delayBeforeLoad: 2
 --- !u!1001 &2047746401
 PrefabInstance:
   m_ObjectHideFlags: 0
