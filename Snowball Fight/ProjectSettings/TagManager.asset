@@ -9,6 +9,8 @@ TagManager:
   - JumpPowerUp
   - SpeedPowerUp
   - SlowPowerUp
+  - Door
+  - Pressure Plate
   layers:
   - Default
   - TransparentFX
