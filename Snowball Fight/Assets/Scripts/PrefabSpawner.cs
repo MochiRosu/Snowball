@@ -2,30 +2,40 @@ using UnityEngine;
 
 public class PrefabSpawner : MonoBehaviour
 {
-    public GameObject prefabToSpawn;
+    public GameObject[] prefabsToSpawn; // Array of prefabs to spawn
+    public Vector2 spawnRange;
     public float spawnInterval = 2.0f;
-    public Vector2 spawnRange = new Vector2(-5f, 5f); // Adjust the range as needed
 
     private float timer = 0.0f;
 
+    private void Start()
+    {
+        timer = spawnInterval;
+    }
+
     private void Update()
     {
-        timer += Time.deltaTime;
+        timer -= Time.deltaTime;
 
-        if (timer >= spawnInterval)
+        if (timer <= 0)
         {
             SpawnPrefab();
-            timer = 0.0f;
+            timer = spawnInterval;
         }
     }
 
     private void SpawnPrefab()
     {
-        Vector2 spawnPosition = new Vector2(
-            Random.Range(spawnRange.x, spawnRange.y),
-            transform.position.y // Use the spawner's y-position for the y-coordinate
+        // Calculate a random position within the spawn range
+        Vector2 randomPosition = new Vector2(
+            Random.Range(-spawnRange.x, spawnRange.x),
+            Random.Range(-spawnRange.y, spawnRange.y)
         );
 
-        Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
+        // Choose a random prefab from the array
+        GameObject randomPrefab = prefabsToSpawn[Random.Range(0, prefabsToSpawn.Length)];
+
+        // Spawn the chosen prefab at the random position
+        Instantiate(randomPrefab, randomPosition, Quaternion.identity);
     }
 }

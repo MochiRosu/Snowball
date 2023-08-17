@@ -1496,6 +1496,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Ice1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 566
+        width: 326
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4fc95045d4bcb47b612ba259d875ca
+      internalID: 25842099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1508,6 +1529,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Big Snowball: 21300070
+      Ice1: 25842099
       Ice_Bot_26_big_L: 21300002
       Ice_Bot_26_big_R: 21300010
       Ice_Bot_L: 21300020
