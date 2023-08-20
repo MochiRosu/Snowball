@@ -9,17 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 43fa0975a0eaaee45a9f71f737d73317
   - enabled: 1
-    path: Assets/Scenes/Puzzle1.unity
-    guid: e785c1d08c1687d46bf6c2a74cecb549
-  - enabled: 1
-    path: Assets/Scenes/Puzzle2.unity
-    guid: 832548e5bd39293488a787f678c14f64
-  - enabled: 1
     path: Assets/Scenes/SnowballFIght1.unity
     guid: a11d66ba478cbe141bf38ea02c3c0d89
   - enabled: 1
+    path: Assets/Scenes/Puzzle1.unity
+    guid: e785c1d08c1687d46bf6c2a74cecb549
+  - enabled: 1
     path: Assets/Scenes/SnowballFight2.unity
     guid: 37e32ce28aa23df46a957a8dfa11623c
+  - enabled: 1
+    path: Assets/Scenes/Puzzle2.unity
+    guid: 832548e5bd39293488a787f678c14f64
   - enabled: 1
     path: Assets/Scenes/SnowballFIght3.unity
     guid: 2cda990e2423bbf4892e6590ba056729

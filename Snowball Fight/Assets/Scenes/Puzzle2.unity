@@ -47308,8 +47308,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d469cee22a2de24aa367d0aa24c0c07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevelName: SnowballFight2
-  delayBeforeLoad: 2
+  nextLevelName: MainMenu
+  delayBeforeLoad: 1
 --- !u!1001 &2047746401
 PrefabInstance:
   m_ObjectHideFlags: 0
