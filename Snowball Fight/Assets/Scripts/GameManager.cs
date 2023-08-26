@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     public GameObject player1;
     public GameObject player2;
 
+    //public string nextLevelName;
+
     public int P1Life;
     public int P2Life;
 
@@ -49,6 +51,11 @@ public class GameManager : MonoBehaviour
         {
             SceneManager.LoadScene(mainMenu);
         }
+
+        //if (p2Wins = true && Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    SceneManager.LoadScene(nextLevelName);
+        //}
     }
 
     public void HurtP1()

@@ -5,6 +5,7 @@ using UnityEngine;
 public class PressurePlate : MonoBehaviour
 {
     public GameObject doorToDeactivate;
+    public GameObject explosionEffect;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,6 +16,7 @@ public class PressurePlate : MonoBehaviour
             if (doorToDeactivate != null)
             {
                 Destroy(doorToDeactivate);
+                Instantiate(explosionEffect, transform.position, Quaternion.identity);
             }
         }
 
@@ -24,6 +26,7 @@ public class PressurePlate : MonoBehaviour
             if (doorToDeactivate != null)
             {
                 Destroy(doorToDeactivate);
+                Instantiate(explosionEffect, transform.position, Quaternion.identity);
             }
         }
     }
