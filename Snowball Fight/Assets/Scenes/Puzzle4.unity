@@ -532,8 +532,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f5f0f4f2b5a3c145b3b90322f260564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorToDeactivate: {fileID: 0}
-  explosionEffect: {fileID: 0}
+  doorToDeactivate: {fileID: 1002728331}
+  explosionEffect: {fileID: 8660060412205825988, guid: ab457348b4b49c048a279515856e7b67, type: 3}
+--- !u!1 &571446008 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5366448866764386742, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+  m_PrefabInstance: {fileID: 1421080265}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &729727475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5366448866764386742, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+  m_PrefabInstance: {fileID: 118051499}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &729838073 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 107616722668939644, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
@@ -551,12 +561,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f5f0f4f2b5a3c145b3b90322f260564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorToDeactivate: {fileID: 0}
-  explosionEffect: {fileID: 0}
+  doorToDeactivate: {fileID: 803530577}
+  explosionEffect: {fileID: 8660060412205825988, guid: ab457348b4b49c048a279515856e7b67, type: 3}
 --- !u!4 &794108257 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6121454164484452019, guid: c1f2f47f7d9d27a48931ef293935f75a, type: 3}
   m_PrefabInstance: {fileID: 1670241236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &803530577 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5366448866764386742, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+  m_PrefabInstance: {fileID: 1801100168}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &883524110
 PrefabInstance:
@@ -619,6 +634,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+--- !u!1 &1002728331 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5366448866764386742, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+  m_PrefabInstance: {fileID: 883524110}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1025754825
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,6 +755,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 65431130, guid: fcad8f7aca2b6b747a6e24df62c5a2c4, type: 3}
+    - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: doorToDeactivate
+      value: 
+      objectReference: {fileID: 1718112236}
     - target: {fileID: 7736017789744743835, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -798,8 +822,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f5f0f4f2b5a3c145b3b90322f260564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorToDeactivate: {fileID: 0}
-  explosionEffect: {fileID: 0}
+  doorToDeactivate: {fileID: 1451771789}
+  explosionEffect: {fileID: 8660060412205825988, guid: ab457348b4b49c048a279515856e7b67, type: 3}
 --- !u!1 &1178235304
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,6 +923,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1223670547, guid: fcad8f7aca2b6b747a6e24df62c5a2c4, type: 3}
+    - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: doorToDeactivate
+      value: 
+      objectReference: {fileID: 571446008}
     - target: {fileID: 7736017789744743835, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -960,6 +988,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 1223457969, guid: fcad8f7aca2b6b747a6e24df62c5a2c4, type: 3}
+    - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: doorToDeactivate
+      value: 
+      objectReference: {fileID: 729727475}
     - target: {fileID: 7736017789744743835, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -1199,6 +1231,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3370562888826849011, guid: 03201eb84e843fc4a881a748db8e5c9a, type: 3}
   m_PrefabInstance: {fileID: 327542749}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1451771789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5366448866764386742, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+  m_PrefabInstance: {fileID: 1605310758}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1504945557
 GameObject:
@@ -49408,6 +49445,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1f2f47f7d9d27a48931ef293935f75a, type: 3}
+--- !u!1 &1718112236 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5366448866764386742, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+  m_PrefabInstance: {fileID: 1589203482}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1801100168
 PrefabInstance:
   m_ObjectHideFlags: 0
