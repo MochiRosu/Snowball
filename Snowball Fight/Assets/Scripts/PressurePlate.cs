@@ -16,7 +16,14 @@ public class PressurePlate : MonoBehaviour
             if (doorToDeactivate != null)
             {
                 Destroy(doorToDeactivate);
-                Instantiate(explosionEffect, transform.position, Quaternion.identity);
+                //Instantiate(explosionEffect, transform.position, Quaternion.identity);
+
+                Vector3 doorPosition = doorToDeactivate.transform.position;
+
+                if (explosionEffect != null)
+                {
+                    Instantiate(explosionEffect, doorToDeactivate.transform.position, Quaternion.identity);
+                }
             }
         }
 
@@ -26,7 +33,14 @@ public class PressurePlate : MonoBehaviour
             if (doorToDeactivate != null)
             {
                 Destroy(doorToDeactivate);
-                Instantiate(explosionEffect, transform.position, Quaternion.identity);
+                //Instantiate(explosionEffect, transform.position, Quaternion.identity);
+
+                Vector3 doorPosition = doorToDeactivate.transform.position;
+
+                if (explosionEffect != null)
+                {
+                    Instantiate(explosionEffect, doorToDeactivate.transform.position, Quaternion.identity);
+                }
             }
         }
     }

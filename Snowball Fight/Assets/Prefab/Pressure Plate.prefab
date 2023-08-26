@@ -126,6 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorToDeactivate: {fileID: 0}
+  explosionEffect: {fileID: 8660060412205825988, guid: ab457348b4b49c048a279515856e7b67, type: 3}
 --- !u!50 &4478478280604964489
 Rigidbody2D:
   serializedVersion: 4

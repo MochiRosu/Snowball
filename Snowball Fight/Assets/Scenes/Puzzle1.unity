@@ -147,6 +147,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: explosionEffect
+      value: 
+      objectReference: {fileID: 8660060412205825988, guid: ab457348b4b49c048a279515856e7b67, type: 3}
+    - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: doorToDeactivate
       value: 
       objectReference: {fileID: 1439509867}
@@ -321,6 +325,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.6133328
       objectReference: {fileID: 0}
+    - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: explosionEffect
+      value: 
+      objectReference: {fileID: 8660060412205825988, guid: ab457348b4b49c048a279515856e7b67, type: 3}
     - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: doorToDeactivate
       value: 
@@ -24722,6 +24730,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.44303396
       objectReference: {fileID: 0}
+    - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: explosionEffect
+      value: 
+      objectReference: {fileID: 8660060412205825988, guid: ab457348b4b49c048a279515856e7b67, type: 3}
     - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: doorToDeactivate
       value: 

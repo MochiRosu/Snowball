@@ -40,11 +40,14 @@ public class TwoPlayerPressure : MonoBehaviour
     {
         if (player1Inside && player2Inside)
         {
-            Debug.Log("both players on pressure plate");
-            if (doorToDeactivate != null)
+            Destroy(doorToDeactivate);
+            //Instantiate(explosionEffect, transform.position, Quaternion.identity);
+
+            Vector3 doorPosition = doorToDeactivate.transform.position;
+
+            if (explosionEffect != null)
             {
-                Destroy(doorToDeactivate);
-                Instantiate(explosionEffect, transform.position, Quaternion.identity);
+                Instantiate(explosionEffect, doorToDeactivate.transform.position, Quaternion.identity);
             }
         }
     }
