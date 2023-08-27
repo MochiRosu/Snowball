@@ -1469,7 +1469,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Press ''R'' to Reload
 
-    Press ''Esc'' for Main Menu'
+    Press ''Esc'' to Play Next'
 --- !u!222 &183649016
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1627,7 +1627,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Press ''R'' to Reload
 
-    Press ''Esc'' for Main Menu'
+    Press ''Esc'' to Play Next'
 --- !u!222 &333516508
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2202,7 +2202,7 @@ MonoBehaviour:
   - {fileID: 2038855501}
   - {fileID: 1937701427}
   hurtSound: {fileID: 1809076330}
-  mainMenu: MainMenu
+  mainMenu: Puzzle5
 --- !u!1 &833766979
 GameObject:
   m_ObjectHideFlags: 0
@@ -3032,7 +3032,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1310291050
 GameObject:
@@ -8564,7 +8564,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1937701427
 GameObject:
@@ -8891,7 +8891,7 @@ Transform:
   - {fileID: 1809076331}
   - {fileID: 1187394193}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3370562887228884472
 PrefabInstance:
