@@ -11,6 +11,8 @@ public class LevelDoor : MonoBehaviour
     private bool player1Inside;
     private bool player2Inside;
 
+    public GameObject escapeUI;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player1"))
@@ -47,6 +49,8 @@ public class LevelDoor : MonoBehaviour
 
     private IEnumerator LoadNextLevelWithDelay()
     {
+        escapeUI.SetActive(true);
+        
         yield return new WaitForSeconds(delayBeforeLoad);
 
         SceneManager.LoadScene(nextLevelName);
