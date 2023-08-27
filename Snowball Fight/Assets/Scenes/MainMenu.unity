@@ -761,7 +761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4cc5a6fe6a41e94d87f3d591acb37e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level1: SnowballFIght
+  level1: SnowballFIght1
   level2: SnowballFight2
   level3: SnowballFight3
   level4: SnowballFight4
