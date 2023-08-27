@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     public GameObject[] p2Sticks;
     public AudioSource hurtSound;
     public string mainMenu;
+    public string puzzleLevel;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +51,11 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             SceneManager.LoadScene(mainMenu);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene(puzzleLevel);
         }
 
         //if (p2Wins = true && Input.GetKeyDown(KeyCode.Space))
