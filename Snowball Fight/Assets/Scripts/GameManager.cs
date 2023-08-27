@@ -53,9 +53,12 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(mainMenu);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if ((p1Wins != null && p1Wins.activeSelf) || (p2Wins != null && p2Wins.activeSelf))
         {
-            SceneManager.LoadScene(puzzleLevel);
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                SceneManager.LoadScene(puzzleLevel);
+            }
         }
 
         //if (p2Wins = true && Input.GetKeyDown(KeyCode.Space))
