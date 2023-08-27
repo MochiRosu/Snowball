@@ -279,6 +279,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 464320704, guid: fcad8f7aca2b6b747a6e24df62c5a2c4, type: 3}
+    - target: {fileID: 5366448866764386741, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.1333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366448866764386741, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.1333334
+      objectReference: {fileID: 0}
     - target: {fileID: 5366448866764386742, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
       propertyPath: m_Name
       value: Door
@@ -337,6 +345,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5529736149544504236, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.1333334
+      objectReference: {fileID: 0}
+    - target: {fileID: -5529736149544504236, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.1333334
+      objectReference: {fileID: 0}
     - target: {fileID: 107616722668939644, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_Name
       value: Pressure Plate (2)
@@ -355,7 +371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7736017789744743835, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.79
+      value: 1.76
       objectReference: {fileID: 0}
     - target: {fileID: 7736017789744743835, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -409,7 +425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3370562888826849011, guid: 03201eb84e843fc4a881a748db8e5c9a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.03
+      value: -10.03
       objectReference: {fileID: 0}
     - target: {fileID: 3370562888826849011, guid: 03201eb84e843fc4a881a748db8e5c9a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -460,6 +476,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5529736149544504236, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.1333334
+      objectReference: {fileID: 0}
+    - target: {fileID: -5529736149544504236, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.1333334
+      objectReference: {fileID: 0}
     - target: {fileID: 107616722668939644, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_Name
       value: Pressure Plate (1)
@@ -478,7 +502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7736017789744743835, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.22
+      value: -10.243
       objectReference: {fileID: 0}
     - target: {fileID: 7736017789744743835, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -534,10 +558,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorToDeactivate: {fileID: 1002728331}
   explosionEffect: {fileID: 8660060412205825988, guid: ab457348b4b49c048a279515856e7b67, type: 3}
+  doorAudioSource: {fileID: 636815519}
 --- !u!1 &571446008 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5366448866764386742, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
   m_PrefabInstance: {fileID: 1421080265}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &636815519 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4573746177346793372, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+  m_PrefabInstance: {fileID: 4573746176859006723}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &729727475 stripped
 GameObject:
@@ -563,6 +593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorToDeactivate: {fileID: 803530577}
   explosionEffect: {fileID: 8660060412205825988, guid: ab457348b4b49c048a279515856e7b67, type: 3}
+  doorAudioSource: {fileID: 636815519}
 --- !u!4 &794108257 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6121454164484452019, guid: c1f2f47f7d9d27a48931ef293935f75a, type: 3}
@@ -628,6 +659,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 1925721136, guid: fcad8f7aca2b6b747a6e24df62c5a2c4, type: 3}
+    - target: {fileID: 5366448866764386741, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.1333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366448866764386741, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.1333334
+      objectReference: {fileID: 0}
     - target: {fileID: 5366448866764386742, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
       propertyPath: m_Name
       value: Door (4)
@@ -747,6 +786,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5529736149544504236, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.1333334
+      objectReference: {fileID: 0}
+    - target: {fileID: -5529736149544504236, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.1333334
+      objectReference: {fileID: 0}
     - target: {fileID: 107616722668939644, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_Name
       value: Pressure Plate (4)
@@ -755,6 +802,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 65431130, guid: fcad8f7aca2b6b747a6e24df62c5a2c4, type: 3}
+    - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: doorAudioSource
+      value: 
+      objectReference: {fileID: 636815519}
     - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: doorToDeactivate
       value: 
@@ -769,7 +820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7736017789744743835, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.35
+      value: -1.38
       objectReference: {fileID: 0}
     - target: {fileID: 7736017789744743835, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -824,6 +875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorToDeactivate: {fileID: 1451771789}
   explosionEffect: {fileID: 8660060412205825988, guid: ab457348b4b49c048a279515856e7b67, type: 3}
+  doorAudioSource: {fileID: 636815519}
 --- !u!1 &1178235304
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,6 +967,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5529736149544504236, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.1333334
+      objectReference: {fileID: 0}
+    - target: {fileID: -5529736149544504236, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.1333334
+      objectReference: {fileID: 0}
     - target: {fileID: 107616722668939644, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_Name
       value: Pressure Plate (5)
@@ -923,6 +983,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1223670547, guid: fcad8f7aca2b6b747a6e24df62c5a2c4, type: 3}
+    - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: doorAudioSource
+      value: 
+      objectReference: {fileID: 636815519}
     - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: doorToDeactivate
       value: 
@@ -937,7 +1001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7736017789744743835, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.69
+      value: 4.63
       objectReference: {fileID: 0}
     - target: {fileID: 7736017789744743835, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -980,6 +1044,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5529736149544504236, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.1333334
+      objectReference: {fileID: 0}
+    - target: {fileID: -5529736149544504236, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.1333334
+      objectReference: {fileID: 0}
+    - target: {fileID: -4968581404949854585, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 107616722668939644, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_Name
       value: Pressure Plate
@@ -988,6 +1064,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 1223457969, guid: fcad8f7aca2b6b747a6e24df62c5a2c4, type: 3}
+    - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: doorAudioSource
+      value: 
+      objectReference: {fileID: 636815519}
     - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: doorToDeactivate
       value: 
@@ -1002,7 +1082,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7736017789744743835, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.36
+      value: -4.377
       objectReference: {fileID: 0}
     - target: {fileID: 7736017789744743835, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1221,6 +1301,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 469729768, guid: fcad8f7aca2b6b747a6e24df62c5a2c4, type: 3}
+    - target: {fileID: 5366448866764386741, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.1333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366448866764386741, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.1333334
+      objectReference: {fileID: 0}
     - target: {fileID: 5366448866764386742, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
       propertyPath: m_Name
       value: Door (2)
@@ -13411,6 +13499,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -825143511, guid: fcad8f7aca2b6b747a6e24df62c5a2c4, type: 3}
+    - target: {fileID: 5366448866764386741, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.1333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366448866764386741, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.1333334
+      objectReference: {fileID: 0}
     - target: {fileID: 5366448866764386742, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
       propertyPath: m_Name
       value: Door (3)
@@ -13472,6 +13568,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 591411444, guid: fcad8f7aca2b6b747a6e24df62c5a2c4, type: 3}
+    - target: {fileID: 5366448866764386741, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.1333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366448866764386741, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.1333334
+      objectReference: {fileID: 0}
     - target: {fileID: 5366448866764386742, guid: 0a5c5ff0e7d80fe4db790a7b4bcd3f0e, type: 3}
       propertyPath: m_Name
       value: Door (1)
@@ -13491,11 +13595,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6121454164484452019, guid: c1f2f47f7d9d27a48931ef293935f75a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.87
+      value: -30.25
       objectReference: {fileID: 0}
     - target: {fileID: 6121454164484452019, guid: c1f2f47f7d9d27a48931ef293935f75a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.06
+      value: -6.98
       objectReference: {fileID: 0}
     - target: {fileID: 6121454164484452019, guid: c1f2f47f7d9d27a48931ef293935f75a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13762,6 +13866,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5529736149544504236, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.1333334
+      objectReference: {fileID: 0}
+    - target: {fileID: -5529736149544504236, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.1333334
+      objectReference: {fileID: 0}
     - target: {fileID: 107616722668939644, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: m_Name
       value: Pressure Plate (3)
@@ -13817,3 +13929,60 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+--- !u!1001 &4573746176859006723
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4573746177346793373, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_Name
+      value: DoorSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.75447
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.5963497
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.8004146
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
