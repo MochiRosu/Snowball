@@ -222,7 +222,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &108980119
 PrefabInstance:
@@ -358,7 +358,7 @@ Transform:
   m_Children:
   - {fileID: 1504945558}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &321388104
 PrefabInstance:
@@ -698,6 +698,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: doorAudioSource
+      value: 
+      objectReference: {fileID: 1828906517}
+    - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: doorToDeactivate
       value: 
       objectReference: {fileID: 1200479157}
@@ -779,6 +783,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: doorAudioSource
+      value: 
+      objectReference: {fileID: 1828906517}
+    - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: doorToDeactivate
       value: 
       objectReference: {fileID: 157829752}
@@ -855,6 +863,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: doorAudioSource
+      value: 
+      objectReference: {fileID: 1828906517}
     - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: doorToDeactivate
       value: 
@@ -1070,7 +1082,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1025754829
 MonoBehaviour:
@@ -1115,6 +1127,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: doorAudioSource
+      value: 
+      objectReference: {fileID: 1828906517}
     - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: doorToDeactivate
       value: 
@@ -1252,7 +1268,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1200479157 stripped
 GameObject:
@@ -1385,7 +1401,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1441116523 stripped
 Transform:
@@ -18296,6 +18312,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: doorAudioSource
+      value: 
+      objectReference: {fileID: 1828906517}
+    - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: doorToDeactivate
       value: 
       objectReference: {fileID: 190741758}
@@ -18345,6 +18365,68 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+--- !u!1001 &1828906516
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4573746177346793373, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_Name
+      value: DoorSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.63407147
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.36338028
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.8004146
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573746177346793379, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+--- !u!82 &1828906517 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4573746177346793372, guid: 9c4b613c402dfaf4cbf904183c309ed0, type: 3}
+  m_PrefabInstance: {fileID: 1828906516}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1857353426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18540,7 +18622,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1986076032
 MonoBehaviour:
@@ -18583,6 +18665,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
+      propertyPath: doorAudioSource
+      value: 
+      objectReference: {fileID: 1828906517}
     - target: {fileID: 6244158652660909193, guid: cfc3ffbf589c4194cb169cef1677a27c, type: 3}
       propertyPath: doorToDeactivate
       value: 
