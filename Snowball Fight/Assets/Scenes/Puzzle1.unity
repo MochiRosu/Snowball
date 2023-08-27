@@ -24382,7 +24382,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 25.222805, y: -4.7483487}
+  m_Offset: {x: 25.495121, y: -4.7483487}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -24393,7 +24393,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 21.55439, y: 0.5121107}
+  m_Size: {x: 21.009758, y: 0.5121107}
   m_EdgeRadius: 0
 --- !u!61 &1504945563
 BoxCollider2D:
@@ -24434,7 +24434,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 17.630547, y: -1.717966}
+  m_Offset: {x: 17.747253, y: -1.717966}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -24445,7 +24445,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 13.147544, y: 0.44694114}
+  m_Size: {x: 12.551043, y: 0.44694114}
   m_EdgeRadius: 0
 --- !u!61 &1504945565
 BoxCollider2D:
@@ -24616,7 +24616,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -18.11585, y: -1.7295454}
+  m_Offset: {x: -17.774345, y: -1.7605913}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -24627,7 +24627,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.184925, y: 0.5813565}
+  m_Size: {x: 12.495383, y: 0.5192647}
   m_EdgeRadius: 0
 --- !u!61 &1504945572
 BoxCollider2D:
@@ -24668,7 +24668,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -20.622456, y: -4.7894006}
+  m_Offset: {x: -20.862082, y: -4.7767887}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -24679,7 +24679,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.233765, y: 0.48856258}
+  m_Size: {x: 11.754513, y: 0.46333885}
   m_EdgeRadius: 0
 --- !u!61 &1504945574
 BoxCollider2D:
